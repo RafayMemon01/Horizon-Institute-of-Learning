@@ -24,7 +24,7 @@ body {
     display: flex;
     text-decoration: none;
     list-style: none;
-    width: 38em;
+    width: 66em;
     margin-left: 14em;
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .navigation ul span a {
-    margin-left: 2.5em;
+    margin-left: 26em;
     background-color: rgba(45,53,138,255);
     border-radius: 10%;
     border: 1px solid black;
@@ -60,11 +60,12 @@ header img {
     width: 3em;
     height: 3em;
     cursor: pointer;
+    margin-left: 2em;
 }
 .heading{display: flex; justify-content: center;}
 .heading h1{color: rgba(45,53,138,255); cursor: default;}
 .heading h1:hover{color: #0e8243;}
-@media screen (min-width:1440px;) {
+@media screen (max-width:1440px;) {
     .navigation ul span a{margin-left: 22.5em;}
     .navigation{width: 60em;}    
 }
