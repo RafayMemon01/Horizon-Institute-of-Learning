@@ -4,6 +4,7 @@ body {
   background-color: rgb(207, 200, 200);
   color: black;
   font-family: 'Poppins';
+  margin-top: 3em;
 }
 
 .logo {
@@ -19,15 +20,38 @@ body {
 header {
   background-color: rgb(52, 131, 204);
   height: 6em;
-  display: block;
+  display: flex;
+  justify-content: space-around;
   border-radius: 10px;
+  position: fixed;
+  width: 99%;
+  top: 1px;
+  min-width: 726px;
 }
 
 .nav-links {
-  float: right;
+  /* float: right;
   list-style: none;
   margin-top: 25px;
-  margin-right: 400px;
+  margin-right: 400px; */
+}
+.en-p{
+  margin: 10px;
+  padding: 16px;
+}
+
+.en {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  
+}
+.en:hover{
+  border: 1px solid red;
+  height: 15px;
+  width: 50px;
+  padding: 8px;
+  border-radius: 10px;
 }
 
 .nav-links li {
@@ -47,11 +71,41 @@ header {
   border-bottom: 1px solid red;
   font-size: 27px;
 }
-@media (max-width:320px) {
-  .nav-bar{height:20px ;}
-  .logo{width: 20px;}
-  .nav-links li{display: inline; margin-left: 1px; }
-  .nav-links li a{font-size: 8px;}
-  .nav-links{float: left;}
 
+/* @media (max-width:320px) {
+  .logo {
+    width: 2em;
+    margin-top: 7.5px;
+    margin-right: 1px;
+  }
+
+  .nav-links {
+    float: left;
+    margin-top: 7.5px;
+    margin-right: 5px;
+  }
+
+  .nav-links li {
+    margin: 0px;
+  }
+
+  .nav-links li a {
+    font-size: 10px;
+  }
+
+  .navlinks li a:hover {
+    none
+  }
+
+  header {
+    height: 3em;
+  }
+
+  /* .nav-bar{margin-top: 15px;} */
+
+ */
+
+.img-box {
+  margin-top: 10px;
+  display: none;
 }
