@@ -4,9 +4,27 @@ body {
   background-color: rgb(207, 200, 200);
   color: black;
   font-family: 'Poppins';
-  margin-top: 3em;
+  margin-top: 7.5em;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(52, 131, 204);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(223, 43, 43);
+}
 
 .logo {
   width: 6em;
