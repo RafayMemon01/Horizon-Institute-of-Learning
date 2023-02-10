@@ -28,6 +28,7 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(223, 43, 43);
+  
 }
 
 .logo {
@@ -47,7 +48,7 @@ header {
   justify-content: space-around;
   border-radius: 10px;
   position: fixed;
-  width: 99%;
+  width: 100%;
   top: 1px;
   min-width: 726px;
 }
@@ -91,6 +92,9 @@ header {
   color: white;
   font-size: 25px;
 }
+.nav-links li a:visited{
+  color: #f1f1f1;
+}
 
 /* .en{padding: 0 500px;} */
 .nav-links li a:hover {
@@ -100,6 +104,7 @@ header {
   transition-duration: 1s;
   
 }
+.error{display: none;}
 
 /* @media (max-width:320px) {
   .logo {
